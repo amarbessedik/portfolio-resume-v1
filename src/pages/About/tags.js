@@ -1,0 +1,15 @@
+export const tags = [
+  { name: "REACT", color: "#61DAFB" },
+  { name: "JAVASCRIPT", color: "#E8D34D" },
+  { name: "HTML5", color: "#EF833B" },
+  { name: "CSS3", color: "#0396DE" },
+  { name: "MATERIAL UI", color: "#00B0FF" },
+  { name: "MOBILE FIRST", color: "#333" },
+  { name: "SPA", color: "#A5CF4D" },
+  { name: "BOOTSTRAP", color: "#613F8E" },
+  { name: "WEB DEV", color: "#5C6065" },
+  { name: "MERN", color: "#1D8633" },
+  { name: "FONT AWESOME", color: "#2187DF" },
+  { name: "GOOGLE FONTS", color: "#F74F4F" },
+  { name: "RESTFUL APIs", color: "#3EA551" },
+];

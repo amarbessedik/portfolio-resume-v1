@@ -1,3 +1,70 @@
-.about__page{
-    height: calc(100vh - 75px);
+.about__page {
+  height: calc(100vh - 75px);
+  display: flex;
+}
+
+.about__image {
+  /* border: 1px solid red; */
+  flex: 2;
+}
+.about__me {
+  /* border: 1px solid red; */
+  flex: 3;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.about__me > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+.about__me ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.about__me ul > * {
+  margin-bottom: 1%;
+}
+.about__me ul > *:not(:last-child) {
+  margin-right: 10px;
+}
+.about__image {
+  background: url("../../images/developer.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tag__btn{
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 8px -4px #333;
+}
+
+.tag__btn:focus{
+    outline: none;
+}
+
+.download__btn{
+    margin: 50px auto!important;
+    box-shadow: 0 0 10px -4px #3F51B5;
+}
+.download__icon{
+    color: tomato!important;
+}
+
+@media screen and (max-width: 768px) {
+  .about__page {
+    flex-direction: column-reverse;
+  }
+  .about__image,
+  .about__me {
+    flex: 1;
+  }
+  .about__me {
+    padding-left: 0;
+  }
 }

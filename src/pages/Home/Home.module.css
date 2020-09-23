@@ -12,11 +12,11 @@
 }
 
 .avatar__inner__wrapper{
-    width: 360px;
-    height: 360px;
+    width: 280px;
+    height: 280px;
     border: 15px solid #D8D8D8;
     border-radius: 50%;
-    background: url('../../images/avatar.jpg');
+    background: url('../../images/avatar.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -35,8 +35,12 @@ border: 15px solid #EFEFEF;
     justify-content: space-evenly;
     padding: 15px;
 }
+.profile__info__greeting{
+    margin-bottom: 25px;
+}
 .profile__info__greeting span{
-    background-color: #0bceaf;
+    border: 2px solid #0bceaf;
+    color: #0bceaf;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 1px;
@@ -46,7 +50,6 @@ border: 15px solid #EFEFEF;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0px;
-    color: #fff;
 }
 .profile__info__name h2{
     font-size: 32px;
@@ -62,8 +65,15 @@ border: 15px solid #EFEFEF;
     color: #474747;
     font-style: italic;
 }
+.profile__info__name h5{
+    font-size: 18px;
+    line-height: 28px;
+    color: #474747;
+    font-style: italic;
+}
 .profile__contact__info{
     list-style: none;
+    margin: 25px 0;
 }
 .profile__contact__info li:nth-child(2){
   margin: 8px 0;
@@ -77,10 +87,32 @@ border: 15px solid #EFEFEF;
     font-size: 14px;
 }
 .profile__contact__info__icon{
-    font-size: 14px !important;
+    font-size: 16px !important;
+    color: tomato;
 }
-.profile__contact__info__icon:hover{
-    color: #0BCEAF;
+.profile__social__icons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.social__icon{
+    font-size: 1.2rem!important;
+    -webkit-transition: 0.3s;
+    margin-right: 15px;
+    transition: 0.3s;
+    border-radius: 3px;
+    box-sizing: content-box;
+    padding: 6px;
+    color: #000
+}
+
+.social__icon:hover{
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #0bceaf;
+    background: #000;
+    
 }
 
 @media screen and (max-width: 768px){
@@ -89,7 +121,7 @@ border: 15px solid #EFEFEF;
         margin-top: 30px;
     }
     .avatar__inner__wrapper{
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
 }
 }

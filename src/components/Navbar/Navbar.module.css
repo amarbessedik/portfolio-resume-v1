@@ -9,7 +9,7 @@
   justify-content: space-between;
   height: 75px;
   align-items: center;
-  width: 80vw;
+  width: 75vw;
   margin: 0 auto;
 }
 .logo {
@@ -49,9 +49,12 @@
 .nav__links ul li{
   margin: 10px 0;
 }
+.NavLink:hover{
+  border-bottom: 4px solid #0BCEAF;
+}
 .link__active{
   color: #0BCEAF!important;
-  border-bottom: 3px solid tomato;
+  border-bottom: 4px solid #0BCEAF;
 }
 .nav__link {
   display: inline;

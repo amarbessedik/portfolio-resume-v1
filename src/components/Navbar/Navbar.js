@@ -39,6 +39,7 @@ const Navbar = () => {
       return (
         <li id={id} key={index} className={styles.nav__link}>
           <NavLink
+            className={styles.NavLink}
             activeClassName={styles.link__active}
             onClick={clickedOn ? handleClick : () => {}}
             to={url}

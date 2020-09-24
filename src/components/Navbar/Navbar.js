@@ -32,7 +32,7 @@ const Navbar = () => {
 
   const handleClick = () => {
     setClicked(!clicked);
-  };
+  }; 
 
   const generateMenuItems = (menuItems, clickedOn) => {
     return menuItems.map(({ id, title, url }, index) => {

@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 import EmailIcon from "@material-ui/icons/Email";
 import PermPhoneMsgIcon from "@material-ui/icons/PermPhoneMsg";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";

@@ -1,3 +1,49 @@
-.skills__page{
-    height: calc(100vh - 75px);
+.skills__page {
+  height: calc(100vh - 75px);
+  display: flex;
+}
+
+.technical__skills,
+.professional__skills {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  margin-top: 50px;
+}
+.technical__skills {
+  box-shadow: 0 0 8px -4px #333;
+  padding: 20px;
+}
+.technical__skills h2 {
+  margin-bottom: 20px;
+  opacity: .7;
+}
+.progress__bar_wrapper {
+  width: 100%;
+  display: flex;
+}
+.progress__bar {
+  flex: 1;
+}
+.progress__bar {
+  border-radius: 0px !important;
+  height: 22px !important;
+}
+.progress__bar_wrapper:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.progress__bar>*{
+    color: rgba(0,0,0,.7)!important;
+    font-weight: 500!important;
+    font-size: 14px!important;
+    text-align: left!important;
+    padding-left: 5px!important;
+}
+.bg-warning {
+    background-color: #07a4ff!important;
 }

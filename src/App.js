@@ -12,6 +12,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import "./index.css";
 import Footer from "./components/Footer/Footer";
+import NoMatch from './pages/NotFound/NoMatch';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/pricing" component={Pricing} />
             <Route path="/skills" component={Skills} />
+            <Route component={NoMatch} />
           </Switch>
         </div>
         <Footer />

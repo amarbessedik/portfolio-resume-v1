@@ -1,0 +1,38 @@
+.page__not__found{
+    height: calc(100vh - 210px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__404__btn__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0 0 8px -4px;
+}
+.__404__btn__wrapper h2{
+    margin-bottom: 20px;
+    color: tomato;
+}
+.__404__btn{
+    background: transparent;
+    border: none;
+    background: rgb(0, 174, 255);
+    color: #fff;
+    width: 10rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 3px 0;
+}
+.__404__btn:hover{
+    background: rgb(97, 193, 238);
+}
+.__404__btn:focus{
+    outline: none;
+}
+.__404__icon{
+    font-size: 3rem!important;
+}

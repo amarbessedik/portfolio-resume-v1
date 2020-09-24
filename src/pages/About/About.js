@@ -1,9 +1,8 @@
 import React from "react";
-import {tags} from './tags';
+import { tags } from "./tags";
 import styles from "./About.module.css";
 import Button from "@material-ui/core/Button";
 import GetAppIcon from "@material-ui/icons/GetApp";
-
 
 const About = () => {
   return (
@@ -37,7 +36,13 @@ const About = () => {
             );
           })}
         </ul>
-        <Button className={styles.download__btn} variant="outlined" color="primary">CV/Resume <GetAppIcon className={styles.download__icon}/></Button>
+        <Button
+          className={styles.download__btn}
+          variant="outlined"
+          color="primary"
+        >
+          CV/Resume <GetAppIcon className={styles.download__icon} />
+        </Button>
       </div>
     </div>
   );

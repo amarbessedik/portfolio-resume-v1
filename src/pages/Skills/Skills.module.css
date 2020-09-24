@@ -1,5 +1,5 @@
 .skills__page {
-  height: calc(100vh - 75px);
+  min-height: calc(100vh - 75px);
   display: flex;
 }
 
@@ -7,7 +7,6 @@
 .professional__skills {
   flex: 1;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -46,4 +45,10 @@
 }
 .bg-warning {
     background-color: #07a4ff!important;
+}
+
+@media screen and (max-width: 800px){
+  .skills__page{
+    flex-direction: column-reverse;
+  }
 }

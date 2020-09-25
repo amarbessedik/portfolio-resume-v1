@@ -40,7 +40,7 @@ const Skills = () => {
           <CircularProgressBar title="Great Service" value={95} text="95" />
           <CircularProgressBar title="Team Work" value={90} text="90" />
           <CircularProgressBar title="Learning Curve" value={85} text="85" />
-          <CircularProgressBar title="Communication" value={77} text="75" />
+          <CircularProgressBar title="Communication" value={80} text="80" />
         </div>
       </div>
     </div>

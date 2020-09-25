@@ -5,7 +5,7 @@ const Experiences = () => {
   return (
     <div className={styles.experiences__page}>
       <h1>Experiences</h1>
-    </div>
+    </div> 
   );
 };
 

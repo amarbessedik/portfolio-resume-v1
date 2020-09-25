@@ -1,7 +1,6 @@
 .about__page__wrapper {
   min-height: calc(100vh - 75px);
   display: flex;
-  /* border: 1px solid red; */
   flex-direction: column;
 }
 .about__page{
@@ -44,9 +43,9 @@
 }
 
 .tag__btn {
-  padding: 2px 4px;
+  padding: 3px 6px;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 15px;
   border: none;
   /* box-shadow: 0 0 8px -4px #333; */
   font-size: 12px;
@@ -68,9 +67,6 @@
 .download__btn:hover{
   /* box-shadow: 0 0 8px -3px #000!important; */
   background: #a3f1e4!important;
-}
-.download__icon {
-  color: tomato !important;
 }
 
 /* what I do section */

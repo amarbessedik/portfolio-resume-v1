@@ -3,6 +3,7 @@ export const tags = [
   { name: "JAVASCRIPT", color: "#E8D34D" },
   { name: "HTML5", color: "#EF833B" },
   { name: "CSS3", color: "#0396DE" },
+  { name: "DASHBOARDS", color: "#0396DE" },
   { name: "MATERIAL UI", color: "#00B0FF" },
   { name: "MOBILE FIRST", color: "#333" },
   { name: "SPA", color: "#A5CF4D" },

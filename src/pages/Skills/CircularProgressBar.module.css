@@ -1,0 +1,27 @@
+.circular__progress__bar__container{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+.circular__progress__bar__container h5{
+    font-size: 16px;
+    line-height: 25px;
+    flex: 1;
+}
+.circular__progress__bar{
+    flex: 2;
+}
+
+@media screen and (max-width: 1000px){
+    .circular__progress__bar__container h5{
+    font-size: 85%;
+    line-height: 20px;
+}
+.circular__progress__bar__container{
+  width: 35%;
+  height: 20%;
+}
+}

@@ -1,0 +1,28 @@
+.education__card{
+    border-radius: 3px;
+    border: 1px solid#0BCEAF;
+    padding: 20px 10px;
+}
+.education__card:nth-child(2){
+    margin: 10px 0;
+}
+.education__institution{
+    color: #606366;
+}
+.education__institution a, .school__icon{
+    color: #0BCEAF;
+}
+.graduation__year{
+    color: rgb(187, 186, 186);
+    font-weight: 500;
+    margin: 10px 0;
+}
+.education__institution a:hover{
+    text-decoration: none;
+    color: #0BCEAF;
+    border-bottom: 2px solid tomato;
+}
+.education__description{
+    font-size: 14px;
+    color: #606366;
+}

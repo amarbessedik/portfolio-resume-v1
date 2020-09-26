@@ -17,9 +17,9 @@ export const menuItems = [
   },
   {
     id: 'item_4',
-    title: "Experiences",
+    title: "Experience",
 
-    url: "/experiences",
+    url: "/experience",
   },
   {
     id: 'item_5',

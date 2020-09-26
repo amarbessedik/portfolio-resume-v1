@@ -4,7 +4,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
-import Experiences from './pages/Experiences/Experiences';
+import Experience from './pages/Experience/Experience';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Pricing from './pages/Pricing/Pricing';
 import Skills from './pages/Skills/Skills';
@@ -25,7 +25,7 @@ const App = () => {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/Blog" component={Blog} />
-            <Route path="/Experiences" component={Experiences} />
+            <Route path="/Experience" component={Experience} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/pricing" component={Pricing} />
             <Route path="/skills" component={Skills} />

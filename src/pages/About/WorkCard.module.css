@@ -1,32 +1,89 @@
-.work__card{
+.work__card {
   margin: 2px;
-  box-shadow: 0 0 8px -4px #242424;
-  box-shadow: 0px 5px 20px 4px #00000015;
-  padding: 10px;
-  /* flex: 1; */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 rgba(17, 22, 26, 0.16),
+    0 2px 4px 0 rgba(17, 22, 26, 0.08), 0 4px 8px 0 rgba(17, 22, 26, 0.08);
+  padding: 5px;
   width: 100%;
+  min-width: 280px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: fit-content;
 }
-.work__card >*{
-  margin: 10px 0;
+.work__card > * {
+  margin: 5px 0;
 }
-
-.work__card__image{
-  height: 160px;
+.work__card__image {
+  height: 180px;
+  position: relative;
 }
-.work__card__image img{
+.work__card__image img {
   height: 100%;
   object-fit: contain;
   border-radius: 5px;
 }
+.image__overlay {
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0,0,0,.8));
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+.card__icon {
+  width: 100%;
+  text-align: center;
+}
+.expand__btn__container,
+.card__caption__text {
+  /* border: 1px solid red; */
+  min-width: 275px;
+}
+.expand__btn__container {
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+.card__caption__text {
+  width: 100%;
+}
+.unfold__more__icon {
+  box-sizing: content-box;
+  padding: 5px;
+  border-radius: 50%;
+  /* border: 1px solid #474747; */
+  box-shadow: 0 0 4px 0 rgba(17, 22, 26, 0.26),
+    0 2px 4px 0 rgba(17, 22, 26, 0.12), 0 4px 8px 0 rgba(17, 22, 26, 0.2);
+  cursor: pointer;
+}
+.unfold__more__icon:hover {
+  background: #474747;
+  color: #fff;
+}
+.unfold__less__icon {
+  box-sizing: content-box;
+  padding: 5px;
+  border-radius: 50%;
+  /* border: 1px solid #474747; */
+  box-shadow: 0 0 4px 0 rgba(17, 22, 26, 0.26),
+    0 2px 4px 0 rgba(17, 22, 26, 0.12), 0 4px 8px 0 rgba(17, 22, 26, 0.2);
+  background: #474747;
+  color: #fff;
+  cursor: pointer;
+}
+.unfold__less__icon:hover {
+  /* border: 1px solid #474747; */
+  background: #fff;
+  color: #474747;
+}
 
-@media screen and (max-width: 1100px){
-  .work__card{
-      flex: 1;
-      margin: 5px;
+@media screen and (max-width: 1100px) {
+  .work__card {
+    flex: 1;
+    margin: 5px;
   }
 }

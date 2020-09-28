@@ -8,6 +8,10 @@
   margin: 10px auto;
 }
 
+.MuiSvgIcon-root{
+  font-size: 22px!important;
+}
+
 @media screen and (max-width: 900px) {
   .app__wrapper {
     width: 85vw;

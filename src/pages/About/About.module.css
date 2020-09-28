@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
 }
-.about__page{
+.about__page {
   display: flex;
 }
 
@@ -14,8 +14,9 @@
 
 .about__me {
   flex: 3;
-  padding-top: 10%;
-  padding-left: 10%;
+  padding-top: 5%;
+  padding-left: 8%;
+  color: #5c6063;
 }
 
 .about__me > *:not(:last-child) {
@@ -47,9 +48,8 @@
   color: #fff;
   border-radius: 15px;
   border: none;
-  /* box-shadow: 0 0 8px -4px #333; */
   font-size: 12px;
-  cursor: context-menu!important;
+  cursor: context-menu !important;
 }
 
 .tag__btn:focus {
@@ -58,36 +58,35 @@
 
 .download__btn {
   margin: 50px auto !important;
-  padding: 5px 30px!important;
-  background: #51ecd2!important;
-  color: #242424!important;
-  border-radius: 25px!important;
-  box-shadow: none!important;
+  padding: 5px 30px !important;
+  background: #51ecd2 !important;
+  color: #242424 !important;
+  border-radius: 25px !important;
+  box-shadow: none !important;
 }
-.download__btn:hover{
-  /* box-shadow: 0 0 8px -3px #000!important; */
-  background: #a3f1e4!important;
+.download__btn:hover {
+  background: #a3f1e4 !important;
 }
 
 /* what I do section */
-.what__I__do{
-  /* border: 1px solid red; */
+.what__I__do {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.work__cards__wrapper{
-  /* border: 1px solid blue; */
+.work__cards__wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
+  min-height: 180px;
 }
 
-.what__I__do h3{
-  margin: 30px auto;
+.what__I__do h3 {
+  margin: 10px auto 20px;
+  color: #5c6063;
 }
 
 /* Media Queries */
@@ -99,7 +98,7 @@
   .about__me {
     padding-left: 0;
   }
-  .about__image__wrapper{
+  .about__image__wrapper {
     height: 16rem;
   }
   .about__me {

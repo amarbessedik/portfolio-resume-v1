@@ -1,3 +1,20 @@
 .contact__page {
-  height: calc(100vh - 75px);
+  min-height: calc(100vh - 280px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact__page h1{
+  margin: 20px auto;
+  color: #606366;
+}
+
+.contact__cards__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 100%;
+  flex-wrap: wrap;
 }
